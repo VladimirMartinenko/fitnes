@@ -1,0 +1,140 @@
+.footer {
+  padding: rem(20) 0;
+  background: #0B0D17;
+  padding: 90px 0 26px 0;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @include media-mx(510) {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+
+  &__content {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    @include media-mx(768) {
+      flex-direction: column;
+      gap: 50px;
+      padding-left: 25%;
+  }
+  @include media-mx(400) {
+    padding-left: 0;
+  }
+  }
+
+  &__wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 255px;
+    gap: 24px;
+
+  }
+  &__cont {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 255px;
+    gap: 12px;
+
+  }
+
+  &__logo {
+    font-size: 25px;
+font-weight: 800;
+line-height: 28px;
+  }
+  &__color {
+    font-size: 25px;
+font-weight: 800;
+line-height: 28px;
+color: #E43071;
+  }
+
+  &__text {
+    font-size: 14px ;
+    line-height: 24px;
+    font-weight: 400;
+    color: #ffffff;
+  }
+
+  &__wrap-icon {
+    display: flex;
+    gap: 16px;
+  }
+
+  &__title {
+    font-size: 20px ;
+    line-height: 30px;
+    font-weight: 500;
+    color: #ffffff;
+  }
+
+  &__icon {
+    width: 24px;
+    height: 24px;
+  }
+
+  &__bottom {
+    padding: 80px 0 0 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    @include media-mx(768) {
+      flex-direction: column;
+      align-items: center;
+      gap: 50px;
+  }
+  }
+
+  &__text-left {
+    font-size: 14px ;
+    line-height: 24px;
+    font-weight: 400;
+    color: #ffffff;
+  }
+
+  &__text-right {
+    font-size: 14px ;
+    line-height: 24px;
+    font-weight: 400;
+    color: #ffffff;
+  }
+}
+.logo {
+
+  &__color {
+   
+  }
+}
+.icon {
+
+  &__wrap {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #23252e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__img {
+  }
+}
+.foter {
+
+  &__contact-wrap {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    
+  }
+}
